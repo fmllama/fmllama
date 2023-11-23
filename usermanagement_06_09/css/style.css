@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    justify-content: center;
+    width: 100%;
+}
+
+form.loginform {
+    align-items: center;
+    box-shadow: 1px 1px 10px #777;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: rgb(183, 239, 173);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.startpage {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #000;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #555555;
+}
+
+#book-table {
+    max-width: 768px;
+}
+
+.book-row {
+    display: table-row;
+}
+
+.book-row > div:first-child{
+    font-weight: bold;
+}
+
+.book-row > div {
+    border-bottom: 1px solid #000;
+    display: table-cell;
+    padding: 10px;
+}
+
+.bookforms {
+    display: flex;
+    flex-direction: column;
+}
+.bookforms button{
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+[class *= 'col-'] {
+    padding: 10px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-6 img {
+    background-color: #ccc;
+    height: 100%;
+    width: 100%;
+}

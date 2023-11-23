@@ -1,0 +1,44 @@
+/* STR + SHIFT + R HARD RELOAD WEGEN CACHE */
+
+
+.appt_container.green{
+    border-color: rgb(0, 212, 0);
+
+}
+
+.appt_container.yellow{
+    border-color: yellow;
+
+}
+
+.appt_container.red{
+    border-color: red;
+
+}
+
+.appt_container{
+    border: 2px solid black;
+    border-left: 7px solid; 
+    border-radius: 5px;   
+
+    padding: 15px;
+    margin: 0px 0px 5px 15px;
+
+
+}
+
+.user_container{
+    border-bottom: 1px rgb(71, 71, 71) solid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.date{
+    color: grey;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
