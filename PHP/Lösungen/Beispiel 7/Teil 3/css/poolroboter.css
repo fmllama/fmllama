@@ -1,0 +1,63 @@
+.user,
+.voting {
+	font-size:90%;
+	color:#333;
+}
+.marke {
+	font-weight:bold;
+}
+.text {
+	font-style:italic;
+}
+
+.bewertungen,
+.bewertungen li,
+.bewertungen ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.bewertungen ul {
+	margin-left:2em;
+	margin-bottom:0.5em;
+}
+.bewertungen ul li {
+	padding:0.2em;
+}
+.bewertungen ul li:nth-of-type(even) {
+	background-color:#eee;
+}
+
+article {
+	display:grid;
+	grid-template-columns:8rem 1fr;
+	grid-template-areas:
+		"modell beschreibung"
+		"nutzung nutzung";
+	gap:1em;
+	margin-bottom:1em;
+	border-radius:0.2rem;
+	border:1px solid #ccc
+}
+article > * {
+	padding:0.5rem;
+}
+article ul,
+article li {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+article ul {
+	grid-area:nutzung;
+	display:flex;
+	gap:1em;
+	background-color:#eee;
+	padding:0.5rem;
+	border-radius:0px 0px 0.2rem 0.2rem;
+}
+article .beschreibung {
+	font-size:0.9rem;
+	font-style:italic;
+	line-height:1.5;
+}
